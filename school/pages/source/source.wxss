@@ -1,0 +1,43 @@
+/* pages/source/source.wxss */
+@import "post/source_template.wxss";
+.fle{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: column;
+	height:150rpx;
+	margin-left:20rpx;
+	margin-top:20rpx;
+	border-bottom:1rpx solid #ccc;
+}
+.fle .up{
+	font-size:30rpx;
+}
+.fle .up>text{
+	color:#b4f8fa;
+}
+.fle .clo{
+	display: flex;
+	justify-content: space-between; 
+	width:100%;
+}
+.fle .clo>text{
+	font-size:30rpx;
+	color:#0072e3;
+	width:100%;
+	margin-bottom: 20rpx;
+}
+.fle .clo>.rig{
+	text-align: right;
+	padding-right: 10rpx;
+}
+.more{
+	margin-top:20rpx;
+	margin-bottom:30rpx;
+	width:95%;
+	margin-left: 20rpx;
+}
+.more>button{
+	font-size:30rpx;
+	background:#fff;
+}
+@import "post/sf_template.wxss";

@@ -1,0 +1,22 @@
+.nam{
+	width:100%;
+	height:360rpx;
+	border-top:1px solid #b4f8fa;
+	border-bottom:1px solid #b4f8fa;
+	margin-top:50rpx; 
+	text-align: center;
+}
+.nam>image{
+	width:300rpx;
+	height:250rpx;
+	margin-top:40rpx;
+}
+.last{
+	height:180rpx;
+	text-align:center;
+}
+.last>view{
+	font-size:24rpx;
+	width:100%;
+	margin-top:10rpx;
+}

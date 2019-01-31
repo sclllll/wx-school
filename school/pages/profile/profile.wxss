@@ -1,0 +1,23 @@
+/* pages/profile/profile.wxss */
+/**/
+.avatar{
+	background-color: #b4f8fa;
+	height:400rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  flex-direction: column;
+}
+.avatar .login{
+  margin-top:40rpx;
+  font-size:40rpx;
+  font-weight:bold;
+}
+.avatar image{
+	width:190rpx;
+	height:190rpx;
+}
+.cell image{
+	width:60rpx;
+	height:60rpx;
+}

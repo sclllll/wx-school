@@ -1,0 +1,27 @@
+<!--pages/info/info.wxml-->
+<view>
+	<import src="post/info_template"/>
+	<template is="info_name1"/>
+	<view class='mid' wx:for="{{list}}" wx:key="index">
+		<view class='im'><image src="{{item.img_url}}"></image></view>
+		<view class='ilb'>{{item.job}}</view>
+		<view class='ils'>{{item.honor}}</view>
+		<view class='pric'>
+			<text class='prin'>惊喜价：￥{{item.pri}}</text>
+			<text class='prio'>销量：{{item.market}}</text>
+			<view class="content">
+				<view class="inform {{isShow? '':'on'}}"><view>商品信息</view></view>
+				<view class="perf {{isShow? '':'on'}}">{{item.honor}}</view>
+			<view><button bindtap='handle'>查看教师详情</button></view>
+			</view>
+		</view>
+	</view>
+	<view class="nam {{isShow? '':'on'}}">
+		<image src="http://127.0.0.1:3000/img/school5.jpg"></image>
+	</view>
+	<view class='last'>
+		<view>某某省某某市某某区某某街XXX号</view>
+		<view>TEL:000-1234567XX/ FAX:000-98765432XX</view>
+		<view>Copyright©2004-2005 沪ICP备XXXXXXXX号 All Rights Reserved</view>
+	</view>	
+</view>

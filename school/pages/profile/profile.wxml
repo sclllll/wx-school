@@ -1,0 +1,20 @@
+<!--pages/profile/profile.wxml-->
+<view>
+<!--1:头像-->
+<view class="avatar">
+	<image src='{{isPlaying?"http://127.0.0.1:3000/img/music-start.png":"http://127.0.0.1:3000/img/avatar1.png"}}' lazy-load mode='aspectFill' bindtap='onMusicTap'></image>
+  <view class='login' bindtap='login'>学生登录</view>
+</view>
+<!--2:个人列表-->
+<view class='divider'></view>
+<view class='cell'>
+	<view class='cell-item arrow' wx:for="{{list}}" wx:key="index" bindtap='handle' data-id="{{item.pid}}">
+		<view><image src="{{item.img_url}}"></image></view>
+		<view>{{item.inform}}</view>
+	</view>
+	<view class='cell-item arrow' bindtap='handle2'>
+		<view><image src="http://127.0.0.1:3000/img/phone.png"></image></view>
+		<view>联系我们</view>
+	</view>
+</view>
+</view>

@@ -1,0 +1,41 @@
+/**app.wxss**/
+/*通用功能一:截取过长字符串...*/
+page{
+	height:100%;
+}
+.ell{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+/*通用功能二:灰色分割块*/
+.divider{
+	height:50rpx;
+	background-color: #f1f1f1;
+}
+/*通用功能三:项目条*/
+.cell{
+	background-color:#fff;
+	font-size:16px;
+	height:600rpx;
+}
+.cell-item{
+	padding:15rpx 50rpx;
+	border-bottom:1rpx solid #f1f1f1;
+	text-align: left;
+}
+/*通用技能:箭头*/
+.arrow{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.arrow::after{
+	content:"";
+	width:15rpx;
+	height:15rpx;
+	border-top:3rpx solid #ccc;
+	border-right:3rpx solid #ccc;
+	transform:rotate(45deg);
+
+}

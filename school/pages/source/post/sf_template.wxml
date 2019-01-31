@@ -1,0 +1,10 @@
+<template name="sf_name1">
+	<view class='nam'>
+		<image src="http://127.0.0.1:3000/img/school5.jpg"></image>
+	</view>
+	<view class='last'>
+		<view>某某省某某市某某区某某街XXX号</view>
+		<view>TEL:000-1234567XX/ FAX:000-98765432XX</view>
+		<view>Copyright©2004-2005 沪ICP备XXXXXXXX号 All Rights Reserved</view>
+	</view>		
+</template>

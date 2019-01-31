@@ -1,0 +1,22 @@
+<template name="info_name1">
+	<view class='header'>
+		<text>光明中学 SCHOOL</text>
+	</view>
+	<view class='img1'>
+		<text>使不忘</text>
+		<text>言广学而厚识之</text>
+		<text>尊师重道</text>
+		<text>为己任</text>
+		<text>桃李满天下</text>
+		<text class='first'>某某学校</text>
+	</view>
+	<view class='pow'>
+		<text>师资力量</text>
+	</view>
+	<view class='teac'><text>TEACHERS FACULTY</text></view>
+	<view class='resp'>"尊师重道，博学奋进"</view>
+	<view class="bro">
+		<view>校园风采</view>
+		<view>师资力量</view>
+	</view>
+</template>

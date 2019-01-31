@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<view class='biao'>
+	<view class='header'>
+		<text>光明中学 SCHOOL</text>
+	</view>
+	<view class='middle'>
+	<view class='child'>学生登录</view>
+	<form bindsubmit='formSubmit'>
+		<view class='align'>账号:<input type='text' class='inp' name="username" placeholder='请输入您的学号'></input></view>
+		<view class='align'>密码:<input type='password' class='inp' name="userpwd" placeholder='请输身份证后六位'></input></view>
+		<view class='align'>手机:<input type="text" class='inp' name="userphone" placeholder='请输入您的手机号'></input></view>
+		<view ><button class='but' form-type='submit'>提交</button></view>
+	</form>
+	<image src="http://127.0.0.1:3000/img/true.png" class='img1'></image>
+	<image src="http://127.0.0.1:3000/img/true.png" class='img2'></image>
+	<image src="http://127.0.0.1:3000/img/true.png" class='img3'></image>
+	</view>
+	<view><image src="http://127.0.0.1:3000/img/child1.jpg" class='img4'></image></view>
+</view>

@@ -1,0 +1,66 @@
+<!--pages/home/home.wxml-->
+<view>
+		<import src="post/header_template"/>
+		<template is="head_name1" data/>
+		<view class="body">
+			<view class='pow'>
+				<text>师资力量</text>
+			</view>
+			<view class='teac'><text>TEACHERS FACULTY</text></view>
+		<view class='middle'  >
+			<view class='bg'>
+				<view class='jh' wx:for="{{list}}" wx:key="index">
+					<view class='four'>
+						<image src='{{item.img_url}}' bindtap='handle1'></image>
+					</view>
+					<view class='gro'>
+						<text>{{item.foot}}</text>
+					</view>
+				</view>
+			</view>
+			<view class='img2'>
+				<text>节节攀高</text>
+				<text>只待</text>
+				<text class='letter'>厚积薄发</text>
+			</view>
+			<view class='good'><text>我们的优势,您可以见证!</text></view>
+			<view class='inf'>
+				<text>光明中学，建校73年以来，培养了125万的优秀才子，现</text>
+				<text>也活跃于社会的方方面面，师资力量有目共睹</text>						
+			</view>
+			<view class='but'><button bindtap='handle2'>▶ 查看详情</button></view>	
+			<view class='img3' wx:for="{{list}}" wx:key="index">
+				<view><image src="{{item.img_1}}"></image></view>
+				<view class='fle' bindtap='handle3'>
+					<text>{{item.title}}</text>
+					<text>{{item.middle}}</text>
+					<view class='clo'>
+						<text>👍{{item.good}}</text>
+						<text>🕛{{item.good_day}}</text>
+					</view>
+				</view>
+			</view>
+			<view class='good'><text>ONLINE·MESSAGE</text></view>
+			<view class='beau'>为学校美好的祝福，留下足迹</view>
+			<view class='inf'>
+				<text>学校陪伴学子不断成长，学子可以完全毫无障碍的和学校</text>
+				<text>进行交流，不要忘记，学校也是学子们可以依靠信赖的伙</text>
+				<text>伴喔~</text>						
+			</view>
+			<view class='but'><button bindtap='handle4'>▶ 点我诉说</button></view>
+		</view>
+		<view class='foot'>
+			<view class='com' wx:for="{{list}}" wx:key="index">
+				<image src='{{item.img_2}}'></image>
+			</view>
+			<view class='nam'>
+				<image src="http://127.0.0.1:3000/img/school5.jpg"></image>
+			</view>
+			<view class='last'>
+				<text>山东省临沂市兰山区学府路258号</text>
+				<text>TEL:000-1234567XX/ FAX:000-98765432XX</text>
+				<text>Copyright©2004-2005 沪ICP备XXXXXXXX号 All Rights Reserved</text>
+			</view>
+		</view>
+	</view>	
+</view>

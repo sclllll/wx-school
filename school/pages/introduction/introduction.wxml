@@ -1,0 +1,28 @@
+<!--pages/introduction/introduction.wxml-->
+<view>
+	<view class='header'>
+		<text>光明中学 SCHOOL</text>
+	</view>
+	<view class="body">
+		<view class='middle'>
+			<view>
+				<swiper autoplay='1000'>
+					<swiper-item wx:for="{{list}}" wx:key="index">
+						<image src="{{item.img_url}}" class="swp"></image>
+					</swiper-item>
+				</swiper>
+			</view>
+			<view class='pow'>
+				<text>师资力量</text>
+			</view>
+			<view class='teac'><text>TEACHERS FACULTY</text></view>
+			<view class='resp'>"尊师重道，博学奋进"</view>
+      <view class='clr'><image src="http://127.0.0.1:3000/img/class.jpg"></image></view>
+      <view class='cla1' wx:for="{{list}}" wx:key="index">
+        <view class='cla_1'>{{item.content}}</view>
+      </view>
+      <import src="post/intro_template"/>
+      <template is="last_name1"/>  
+    </view>
+  </view>
+</view>

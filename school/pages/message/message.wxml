@@ -1,0 +1,32 @@
+<!--pages/message/message.wxml-->
+<view>
+	<view class='header'>
+		<text>某某学校 SCHOOL</text>
+	</view>
+	<view class='body'>
+		<view class='img1'>
+			<text>使不忘</text>
+			<text>言广学而厚识之</text>
+			<text>尊师重道</text>
+			<text>为己任</text>
+			<text>桃李满天下</text>
+			<text class='first'>某某学校</text>
+		</view>
+		<view class='middle'>
+			<view class='pow'>
+				<text>在线留言</text>
+			</view>
+			<view class='teac'><text>ONLINE MESSAGE</text></view>
+			<view class='resp'>"尊师重道，博学奋进"</view>
+			<form  bindsubmit='back_houtai'>
+				<input placeholder='标题'  class='inp' name='title'></input>
+				<input placeholder='联系方式' class='inp' name='phone'></input>
+				<input placeholder='邮箱' class='inp' name='email'></input>
+				<textarea placeholder='内容' class='inp' name='content'></textarea>
+				<button class='sub' form-type='submit'>提交</button>
+			</form>
+			<import src="post/school_template"/>
+			<template is="last_name1"/>
+		</view>
+	</view>
+</view>

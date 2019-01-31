@@ -1,0 +1,13 @@
+<template name="head_name1">
+	<view class='header'>
+		<text>光明中学 SCHOOL</text>
+	</view>
+	<view class='img1'>
+		<text>使不忘</text>
+		<text>言广学而厚识之</text>
+		<text>尊师重道</text>
+		<text>为己任</text>
+		<text>桃李满天下</text>
+		<text class='first'>某某学校</text>
+	</view>
+</template>

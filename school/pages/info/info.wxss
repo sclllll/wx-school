@@ -1,0 +1,105 @@
+/* pages/info/info.wxss */
+@import "post/info_template.wxss";
+.im{
+	text-align: center;
+	margin-top:20rpx;
+}
+.im>image{
+	width:550rpx;
+	height:350rpx;
+}
+.ilb{
+	font-size:30rpx;
+	font-weight:bold;
+	margin-left:20rpx;
+	margin-bottom:15rpx;
+}
+.ils{
+	font-size:25rpx;
+	margin-left:20rpx;
+	line-height:40rpx;
+}
+.pric>.prin{
+	color:aqua;
+	padding-left: 20rpx;
+}
+.pric>.prio{
+	font-size:30rpx;
+	padding-left:60rpx;
+}
+.pric>.content{
+	font-size:30rpx;
+}
+.pric>.content>.perf{
+	margin-top:20rpx;
+	line-height:40rpx;
+	margin-left:20rpx;
+	display: none;
+}
+.pric>view>button{
+	width:100%;
+	margin-top:20rpx;
+	background:#fff;
+	font-size:30rpx;
+}
+.pric>.content>.inform{
+	border-top:1rpx solid #ccc;
+	border-bottom:1rpx solid #ccc;
+	line-height: 80rpx;
+	display: none;
+}
+.pric>.content>.inform>view{
+	border-bottom:5rpx solid #f00;
+	width:160rpx;
+	text-align: center;
+	margin-left:20rpx;
+}
+.mid{
+	height:650rpx;
+}
+ /* .pric>.content.on{
+	display: block;
+	text-overflow: clip;
+	overflow: visible;
+} */
+
+.pric>.content>.inform.on{
+	display: block;
+	text-overflow: clip;
+	overflow: visible;
+} 
+ .pric>.content>.perf.on{
+	display: block;
+	text-overflow: clip;
+	overflow: visible;
+} 
+.nam.on{
+	width:100%;
+	height:360rpx;
+	border-top:1px solid #b4f8fa;
+	border-bottom:1px solid #b4f8fa;
+	margin-top:400rpx; 
+	text-align: center;
+}
+.nam{
+	width:100%;
+	height:360rpx;
+	border-top:1px solid #b4f8fa;
+	border-bottom:1px solid #b4f8fa;
+	margin-top:50rpx; 
+	text-align: center;
+}
+.nam>image{
+	width:300rpx;
+	height:250rpx;
+	margin-top:40rpx;
+}
+.last{
+	height:180rpx;
+	text-align:center;
+}
+.last>view{
+	font-size:24rpx;
+	width:100%;
+	margin-top:10rpx;
+}

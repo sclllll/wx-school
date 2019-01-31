@@ -1,0 +1,102 @@
+/* pages/group/group.wxss */
+.body{
+	width:100%;
+	height:auto;
+}
+.body .middle{
+	width:100%;
+	height:100%;
+}
+.body .middle .pow{
+	font-size:30rpx;
+	font-weight: bold;
+	margin-top: 10rpx;
+	text-align:center;
+}
+.header{
+	background-color: #b4f8fa;
+	width:100%;
+	height:110rpx;
+}
+.header>text{
+	margin-left:20rpx;
+	line-height:110rpx;
+}
+.middle>view .swp{
+	width:100%;
+	height:350rpx;
+}
+.body .middle .teac{
+	font-size:24rpx;
+	margin-top:10rpx;
+	width:40%;
+	color:#b4f8fa;
+	background-color: #000;
+	margin-left: 30%;
+	text-align: center;
+}
+.body .middle .resp{
+	font-size:28rpx;
+	margin-top:10rpx;
+	width:40%;
+	color:#000;
+	margin-left: 30%;
+	text-align: center;
+}
+.body .middle .big .bro{
+	display: flex;
+	text-align: center;
+	background-color: #ddd;
+	font-size:30rpx;
+	height:60rpx;
+	line-height: 60rpx;
+	margin-top:20rpx;
+}
+.body .middle .big .bro>view{
+	width:50%;
+}
+.body .middle .big .cli{
+	display: flex;
+	justify-content: space-around;
+	font-size:30rpx;
+	height:60rpx;
+	margin-top:20rpx;
+	text-align: center;
+}
+.body .middle .big .cli .all{
+	border-bottom:5rpx solid #b4f8fa;
+}
+.body .middle .big .cli>text{
+	width:25%;
+	border-bottom:1rpx solid #ddd;
+}
+.active{
+	border-bottom:1rpx solid #b4f8fa;
+}
+.body .middle .tea_list{
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+	justify-content: space-around;
+}
+.body .middle .tea_list .intr{
+	width:48%;
+	font-size:27rpx;
+	border:1rpx solid #ddd;
+	margin-top:20rpx;
+}
+.body .middle .tea_list .intr .tea_img{
+	text-align: center;
+}
+.body .middle .tea_list .intr .tea_img>image{
+	width:280rpx;
+	height:200rpx;
+}
+.body .middle .tea_list .intr .blue{
+  color:#b4f8fa;
+}
+.body .middle .tea_list .intr .del{
+  text-decoration: line-through;
+}
+
+@import "post/group_template.wxss"

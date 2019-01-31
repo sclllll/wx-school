@@ -1,0 +1,16 @@
+<!--pages/news/news.wxml-->
+<view>
+	<import src="post/news_template"/>
+	<template is="news_name1"/>
+	<view class="young">
+		<view class='acti'>我校四项青少年科技活动获得区级奖励</view>
+		<view class="cont" >
+			<view wx:for="{{list}}" wx:key="index"><image src="{{item.img_url}}"></image>{{item.num}}</view>
+			</view>
+	</view>
+	<view class='fif'>
+		<view class="one" wx:for="{{info}}" wx:key="index">{{item.letter}}</view>
+	</view>
+	<import src="post/tf_template"/>
+	<template is="news_name2"/>
+</view>

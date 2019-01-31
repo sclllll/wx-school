@@ -1,0 +1,38 @@
+/**index.wxss**/
+/**功能一:轮播图**/
+.slider,.slider swiper,.slider image{
+	height:390rpx;
+	width:100%;
+}
+    .index-nav{
+      display: flex;
+      flex-wrap: wrap;/*折分换行*/
+			justify-content: center;
+      margin:0 auto;
+			align-items: center;
+    }
+    .nav-item{
+      width:33.3%;
+      height:200rpx;
+      box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			font-size:14px;
+			align-items: center;
+			/*右侧添加边框,底部添加边框*/
+			border-right:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+    }
+		.nav-item:nth-child(3n){
+			border-right:0 none;
+		}
+		.nav-item image{
+			width:102rpx;
+      height:102rpx;
+		}
+		/*功能三*/
+		.divider{
+			height:28rpx;
+			background:#f1f1f1;
+		}

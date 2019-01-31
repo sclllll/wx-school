@@ -1,0 +1,47 @@
+<!--pages/group/group.wxml-->
+<view>
+	<view class='header'>
+		<text>光明中学 SCHOOL</text>
+	</view>
+	<view class="body">
+		<view class='middle'>
+			<view>
+				<swiper autoplay>
+					<swiper-item wx:for="{{info}}" wx:key="index">
+						<image src="{{item.img_url}}" class="swp"></image>
+					</swiper-item>
+				</swiper>
+			</view>
+			<view class='pow'>
+				<text>师资力量</text>
+			</view>
+			<view class='teac'><text>TEACHERS FACULTY</text></view>
+			<view class='resp'>"尊师重道，博学奋进"</view>
+			<view class="big">
+				<view class="bro">
+					<view>校园风采</view>
+					<view>师资力量</view>
+				</view>
+				<view class="cli">
+					<view class='all'>综合</view>
+					<view class='buy'>销量</view>
+					<view class='pri'>价格</view>
+					<view class='eva'>评价</view>
+				</view>
+				<view class='tea_list'>
+					<view class="intr" wx:for="{{list}}" wx:key="index">
+						<view class='tea_img'>
+							<image src='{{item.img_url}}' data-gid="{{item.gid}}" bindtap='handle2'></image>
+						</view>
+						<view>{{item.job}}</view>
+						<view class="blue">￥{{item.pri}}</view>
+						<view class="del">销量：{{item.market}}</view>
+						<view>{{item.honor}}</view>
+					</view>
+				</view>
+        <import src="post/group_template"/>
+        <template is="last_name1"/> 
+			</view>
+		</view>
+	</view>
+</view>

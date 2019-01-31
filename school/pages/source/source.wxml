@@ -1,0 +1,56 @@
+<!--pages/source/source.wxml-->
+<view>
+	<import src="post/source_template"/>
+	<template is="source_name1"/>
+	<view class='fle'>
+		<view class='up'><text>[学校新闻]</text> 我校四项青少年科技活动获得区级奖励</view>
+		<view class='up'>青少年活动基地</view>
+		<view class='clo'>
+			<text>👍219</text>
+			<text class='rig'>🕛2018/10/16</text>
+		</view>
+	</view>
+	<view class='fle'>
+		<view class='up'><text>[学校新闻]</text> 我校四项青少年科技活动获得区级奖励</view>
+		<view class='up'>青少年活动基地</view>
+		<view class='clo'>
+			<text>👍219</text>
+			<text class='rig'>🕛2018/10/16</text>
+		</view>
+	</view>
+	<view class='fle'>
+		<view class='up'><text>[学校新闻]</text> 我校四项青少年科技活动获得区级奖励</view>
+		<view class='up'>青少年活动基地</view>
+		<view class='clo'>
+			<text>👍219</text>
+			<text class='rig'>🕛2018/10/16</text>
+		</view>
+	</view>
+	<view class='fle'>
+		<view class='up'><text>[学校新闻]</text> 我校四项青少年科技活动获得区级奖励</view>
+		<view class='up'>青少年活动基地</view>
+		<view class='clo'>
+			<text>👍219</text>
+			<text class='rig'>🕛2018/10/16</text>
+		</view>
+	</view>
+	<view class='fle'>
+		<view class='up'><text>[学校新闻]</text> 我校四项青少年科技活动获得区级奖励</view>
+		<view class='up'>青少年活动基地</view>
+		<view class='clo'>
+			<text>👍219</text>
+			<text class='rig'>🕛2018/10/16</text>
+		</view>
+	</view>
+	<view class='fle'>
+		<view class='up'><text>[学校新闻]</text> 我校四项青少年科技活动获得区级奖励</view>
+		<view class='up'>青少年活动基地</view>
+		<view class='clo'>
+			<text>👍219</text>
+			<text class='rig'>🕛2018/10/16</text>
+		</view>
+	</view>
+	<view class='more'><button>加载更多</button></view>
+	<import src="post/sf_template"/>
+	<template is="sf_name1"/>
+</view>
